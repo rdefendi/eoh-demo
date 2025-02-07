@@ -1,0 +1,42 @@
+{
+  "id": "eoh-demo",
+  "styles": ["styles/main.css"],
+  "title": "Echoes of Heaven Playable Demo",
+  "version": "0.9.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Robert J Defendi",
+      "email": "robert@robertjdefendi.com",
+      "url": "http://robertjdefendi.com",
+      "discord": "defendi",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "eoh-demo",
+      "label": "Echoes of Heaven Playable Demo",
+      "path": "packs/eoh-demo",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
